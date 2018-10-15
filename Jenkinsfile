@@ -2,13 +2,10 @@ pipeline
 {
     agent any {
     stages {
-        stage('Build') {
-            steps {
-                env.ant = "C:\\Program Files (x86)\\apache-ant-1.9.13\\bin\\ant.bat
-				bat '''
-				${ant} -f "${WORKSPAcE}\\Build.xml" jar-local
-				'''
-				
+        stage('checkout') 
+			{
+			steps{
+			checkout scm;
 				
 				
             }
