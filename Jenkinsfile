@@ -1,9 +1,9 @@
-node ('none'){
+node{
     stages {
         stage('checkout') 
 			{
 			steps{
-			checkout scm;
+			checkout scm
 				
 				
             }
