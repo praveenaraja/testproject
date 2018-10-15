@@ -11,7 +11,7 @@ node{
 		echo "${WORKSPACE}"
 		dir(testprojectt){
 		bat '''
-		${ant} -f ${WORKSPACE}\Hello world\Build.xml
+		${ant} -f ${WORKSPACE}\\Hello world\\Build.xml
 		'''
         }
 		}
