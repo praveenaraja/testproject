@@ -1,5 +1,4 @@
 node{
-    stages {
         stage('checkout') 
 			{
 			steps{
@@ -10,6 +9,6 @@ node{
         }
         
         
-        }
+        
     }
 
