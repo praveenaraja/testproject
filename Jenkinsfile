@@ -1,6 +1,4 @@
-pipeline 
-{
-    agent any {
+node ('none'){
     stages {
         stage('checkout') 
 			{
@@ -14,4 +12,4 @@ pipeline
         
         }
     }
-}
+
